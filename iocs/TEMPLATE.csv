@@ -1,0 +1,2 @@
+date_added,indicator_type,value,status,confidence,campaign_ref,notes
+YYYY-MM-DD,domain,example.com,active,medium,writeups/YYYY-MM-topic-shortname,"Short free-text note"
