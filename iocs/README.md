@@ -20,9 +20,6 @@ archive.
 | [`c2-infrastructure.csv`](c2-infrastructure.csv) | Command-and-control domains/endpoints |
 | [`archive/`](archive/) | Retired indicators, kept for historical correlation |
 
-Use [`TEMPLATE.csv`](TEMPLATE.csv) as the header/format reference when
-adding a new file.
-
 ### Field definitions
 
 | Field | Description |
@@ -66,9 +63,6 @@ dossier sert d'archive canonique et versionnée.
 | [`urls.csv`](urls.csv) | URLs/chemins malveillants complets |
 | [`c2-infrastructure.csv`](c2-infrastructure.csv) | Domaines/points de contrôle C2 |
 | [`archive/`](archive/) | Indicateurs retirés, conservés pour corrélation historique |
-
-Utilise [`TEMPLATE.csv`](TEMPLATE.csv) comme référence de format/en-tête
-pour ajouter un nouveau fichier.
 
 ### Archive
 
