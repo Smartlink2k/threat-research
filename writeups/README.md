@@ -28,14 +28,12 @@ YYYY-MM-topic-shortname/
 ├── screenshots/    # visual evidence
 └── artifacts/      # sanitized HTML/JS/other extracted evidence
 
-I will use the [`TEMPLATE.md`](TEMPLATE.md) as the starting point for new entries.
-
 ### Before publishing a new writeup
 
-- [ ] Affected organizations will be notified where applicable (responsible disclosure)
-- [ ] No live credentials, tokens, or PII in code snippets or artifacts will remain
-- [ ] IOCs cross-posted to [`/iocs/`](../iocs/) with correct `campaign_ref`
-- [ ] Disclaimer section will be included
+- Affected organizations will be notified where applicable (responsible disclosure)
+- Live credentials, tokens, or PII in code snippets or artifacts will be removed
+- IOCs cross-posted to [`/iocs/`](../iocs/) with correct `campaign_ref`
+- Disclaimer section will be included
 
 ---
 
@@ -51,11 +49,9 @@ voir le [README principal du repo](../README.md) pour la politique de langue.
 Chaque writeup a son propre dossier daté (voir structure en anglais
 ci-dessus — identique peu importe la langue).
 
-Je vais utiliser [`TEMPLATE.md`](TEMPLATE.md) comme point de départ pour un nouveau cas.
-
 ### Avant de publier un nouveau writeup
 
-- [ ] Les Organisations affectées seront notifiées lorsque applicable (divulgation responsable)
-- [ ] Aucun identifiant, jeton ou renseignement personnel dans le code ou les artefacts sera présent
-- [ ] IOCs ajoutés dans [`/iocs/`](../iocs/) avec le bon `campaign_ref`
-- [ ] Une section avertissement sera incluse
+- Les Organisations affectées seront notifiées lorsque applicable (divulgation responsable)
+- Aucun identifiant, jeton ou renseignement personnel dans le code ou les artefacts sera présent
+- IOCs ajoutés dans [`/iocs/`](../iocs/) avec le bon `campaign_ref`
+- Une section avertissement sera incluse
