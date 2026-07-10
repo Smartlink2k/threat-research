@@ -1,0 +1,19 @@
+// ============================================================
+// Title:        [Short descriptive name]
+// Purpose:      [What this query detects and why it matters]
+// Data source:  [e.g., EmailUrlInfo, AADSignInEventsBeta]
+// Author:       Jean-Philippe Thibault
+// Date:         YYYY-MM-DD
+// Related:      [Link to writeup, if applicable]
+//
+// Notes:
+// - Validate column names with `getschema` before running against a new
+//   tenant — schema drift is common.
+// - Adjust thresholds/time windows below to your environment's baseline.
+// ============================================================
+
+TableName
+| where Timestamp > ago(30d)              // adjust time window as needed
+| where ColumnName contains "indicator"    // replace with actual condition
+| project Timestamp, RelevantColumn1, RelevantColumn2
+| sort by Timestamp desc
