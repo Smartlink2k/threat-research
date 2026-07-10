@@ -1,4 +1,4 @@
 date_added,indicator_type,value,status,confidence,campaign_ref,notes
 2026-07-09,domain,redsteel.cc,active,high,writeups/2026-07-storm2372-fxsroofing,"Device-code phishing backend infrastructure, Storm-2372-style pattern"
 2026-07-09,subdomain,4483b4.redsteel.cc,active,medium,writeups/2026-07-storm2372-fxsroofing,"Observed API endpoint host; DNS resolution intermittent"
-2026-07-10,pattern,X-Antibot-Token header (value rotates per session),info,writeups/2026-07-storm2372-fxsroofing,"Header name is fixed signature; token VALUE is dynamic per page load, NOT a static IOC — do not use value for blocking"
+2026-07-10,pattern,X-Antibot-Token header (value rotates per session),info,low,writeups/2026-07-storm2372-fxsroofing,"Header name is fixed signature; token VALUE is dynamic per page load, NOT a static IOC — do not use value for blocking"
