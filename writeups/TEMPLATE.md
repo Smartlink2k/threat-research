@@ -14,8 +14,8 @@
 
 ## TL;DR
 
-2-3 sentences. What is this, who does it affect, why should the reader care.
-Assume the reader may only read this section.
+What is this, who does it affect, why should the reader care.
+(2-3 sentences)
 
 ## Summary
 
@@ -41,3 +41,62 @@ if the flow has more than ~4 steps.
 3.
 
 ### Code / artifacts
+
+Explaination of what each snippet does, with annotations.
+
+### Infrastructure
+
+| Type | Value | Notes |
+|------|-------|-------|
+| Domain | | |
+| C2 | | |
+| Hosting/ASN | | |
+
+## Indicators of Compromise (IOCs)
+
+Summary table here; full machine-readable IOCs go in [`/iocs/`](../../iocs/),
+linked below.
+
+| Type | Value | Confidence |
+|------|-------|------------|
+| | | |
+
+→ Full IOC list: [`/iocs/domains.csv`](../../iocs/domains.csv) (or relevant file)
+
+## Detection
+
+Link to detection queries in [`/detection-queries/`](../../detection-queries/),
+and/or inline a key query here if it's central to the writeup.
+
+```kql
+// See /detection-queries/kql/[filename].kql for the full query
+```
+
+## Mitigation / Recommendations
+
+Practical steps a reader can take: blocking, hardening, user awareness, etc.
+Be specific — "block X pattern via Y mechanism," not generic advice.
+
+## Timeline of Disclosure
+
+*(Include only if a vendor/organization was contacted — omit this section
+entirely if not applicable.)*
+
+| Date | Event |
+|------|-------|
+| | Initial discovery |
+| | Vendor/organization notified |
+| | Response received / no response |
+| | Public disclosure |
+
+## References
+
+- [Link 1]
+- [Link 2]
+
+## Disclaimer
+
+Findings are shared for defensive and educational purposes. Any affected
+organization named here was notified prior to publication where applicable.
+This analysis reflects observations at the time of writing and may not
+represent the current state of the infrastructure described.
