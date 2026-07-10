@@ -21,21 +21,21 @@ for language policy.
 
 ### Structure
 
-Each writeup lives in its own dated folder:
+Each writeup lives in its own dated folder with the following structure:
 
 YYYY-MM-topic-shortname/
 ├── README.md       # the full writeup
 ├── screenshots/    # visual evidence
 └── artifacts/      # sanitized HTML/JS/other extracted evidence
 
-Use [`TEMPLATE.md`](TEMPLATE.md) as the starting point for new entries.
+I will use the [`TEMPLATE.md`](TEMPLATE.md) as the starting point for new entries.
 
 ### Before publishing a new writeup
 
-- [ ] Affected organizations notified where applicable (responsible disclosure)
-- [ ] No live credentials, tokens, or PII in code snippets or artifacts
+- [ ] Affected organizations will be notified where applicable (responsible disclosure)
+- [ ] No live credentials, tokens, or PII in code snippets or artifacts will remain
 - [ ] IOCs cross-posted to [`/iocs/`](../iocs/) with correct `campaign_ref`
-- [ ] Disclaimer section included
+- [ ] Disclaimer section will be included
 
 ---
 
@@ -51,11 +51,11 @@ voir le [README principal du repo](../README.md) pour la politique de langue.
 Chaque writeup a son propre dossier daté (voir structure en anglais
 ci-dessus — identique peu importe la langue).
 
-Utilise [`TEMPLATE.md`](TEMPLATE.md) comme point de départ pour un nouveau cas.
+Je vais utiliser [`TEMPLATE.md`](TEMPLATE.md) comme point de départ pour un nouveau cas.
 
 ### Avant de publier un nouveau writeup
 
-- [ ] Organisations affectées notifiées lorsque applicable (divulgation responsable)
-- [ ] Aucun identifiant, jeton ou renseignement personnel dans le code ou les artefacts
+- [ ] Les Organisations affectées seront notifiées lorsque applicable (divulgation responsable)
+- [ ] Aucun identifiant, jeton ou renseignement personnel dans le code ou les artefacts sera présent
 - [ ] IOCs ajoutés dans [`/iocs/`](../iocs/) avec le bon `campaign_ref`
-- [ ] Section avertissement incluse
+- [ ] Une section avertissement sera incluse
