@@ -1,7 +1,9 @@
 # [Campaign/Vulnerability Name] — [Short Descriptive Title]
 
 **Date published**: YYYY-MM-DD
+
 **Date observed**: YYYY-MM-DD (first observation, if different from publish date)
+
 **Author**: Jean-Philippe Thibault
 **Severity/Impact**: Low / Medium / High / Critical
 **Status**: Active / Remediated / Under investigation
