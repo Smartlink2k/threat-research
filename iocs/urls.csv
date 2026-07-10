@@ -1,0 +1,3 @@
+date_added,url,status,confidence,campaign_ref,notes
+2026-07-08,https://fxsroofing.com/trans-canada/project/,active,high,writeups/2026-07-storm2372-fxsroofing,"Phishing landing page path, PreconSuite-branded device code kit"
+2026-07-09,https://app.box.com/s/re67no54saido6fxo46uijs41lzbchip,unknown,low,writeups/2026-07-storm2372-fxsroofing,"Post-auth redirect destination; legitimate box.com service, likely compromised/temp account, not the box.com service itself at fault"
