@@ -1,0 +1,27 @@
+# OS junk files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# Sensitive/local files — never commit these
+*.pem
+*.key
+credentials.*
+*token*.txt
+.env
+
+# Temporary/working files
+*.tmp
+*.bak
+draft-*
+
+# Downloaded malware samples or live payloads — never commit binaries
+*.exe
+*.dll
+*.bin
